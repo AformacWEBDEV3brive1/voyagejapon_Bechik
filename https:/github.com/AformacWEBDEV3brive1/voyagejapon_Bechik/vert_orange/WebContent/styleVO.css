@@ -1,0 +1,112 @@
+.orange{
+	background-color:#fea347;
+}
+.vert{
+	background-color:#85c17e;
+}
+.gris{
+	background-color:#677179;
+}
+.espace{
+	height:1rem;
+}
+
+#navbar .fix{
+	position:fixed;
+}
+#nom_ENT .vertmot{
+	color:#85c17e;
+}
+#nom_ENT .orangemot{
+	color:white;
+}
+#nom_ENT .titre{
+	font-size:500%;
+	text-align:center;
+}
+
+#carrousel img{
+	height:500px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#carrousel .bgTempo{
+	height:500px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-image:url("image/japan-hero.jpg");
+	display:block;
+}
+#carrousel .apparitionCarrousel{
+	display:none;
+}
+
+#description .color{
+	color:white;
+}
+#description h4{
+	margin-top:1rem;
+	text-align:center;
+}
+#description p{
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+
+
+#destination h2{
+	text-align:center;
+}
+
+#destination  img{
+	height:100px;
+	width:100px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+#destination  .vignette{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#contacter .text{
+	text-align:center;
+	color:white;
+}
+#contacter li{
+	list-style:none;
+}
+
+@media (min-width:720px){
+	#destination img{
+		height:100%;
+		width:100%;
+		float:left;
+		margin-bottom:10px;
+		
+	}
+	#carrousel .bgTempo{
+		display:none;
+	}
+	#carrousel .apparitionCarrousel{
+		display:block;
+	}
+}
+
+
+
+
+@media (min-width:990px){
+	#destination img{
+		height:100%;
+		width:100%;
+		margin-bottom:10px;
+		
+	}
+	#destination h4{
+		text-align:center;
+	}
+}
