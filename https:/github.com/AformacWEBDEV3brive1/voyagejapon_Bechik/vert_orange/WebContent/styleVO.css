@@ -24,6 +24,7 @@ body{
 	z-index:10;
 	position:fixed;
 	width:100%;
+        
 }
 
 
@@ -140,4 +141,219 @@ body{
 	#destination h4{
 		text-align:center;
 	}
+}
+
+
+.titre{
+    text-align: center;
+    font-size : 45px;
+}
+
+.block1{
+   
+}
+
+
+
+@media (max-width: 988px){
+    .block2{
+        background-position-x: 50%;
+        border : 3px black solid;
+        height : 125px;
+        margin-right: -2%;
+        margin-top :5%;
+        width : 150px;
+        background-position-y: 50%;
+       background-size: 100%;
+       border-radius: 10px;
+
+opacity:0.8;
+        color : black;
+        background-repeat: no-repeat;
+        background-color: white;
+        border : 3px #FEA347 solid;
+        margin-bottom: 1%;
+    }
+    .text1{
+        margin-top:20%;
+        text-align: center;
+        font-size : 30px;
+        
+    }
+    .pict{
+        background-image: url("image/picjap5A.jpg");
+    }
+    .pict1{
+        background-image: url("image/picjap2A.png");
+    }
+    .pict2{
+        background-image: url("image/picjap3A.gif");
+    }
+    .pict3{
+        background-image: url("image/picjap4A.gif");
+        
+    }
+    .menuD{
+        display : none;
+    }
+    
+    
+    
+}
+
+
+.backEn{
+    background-image: url("image/japon1.jpg");
+  
+}
+
+
+
+
+@media (min-width : 990px){
+    
+    #blockG{
+        
+        
+    }
+
+    .text1{
+        margin-top:20%;
+        margin-left : 10%;
+        font-size : 25px;
+        text-align: right;
+        
+    }
+
+
+
+    .block2{
+        border : 3px black solid;
+        height : 125px;
+        margin-right: -2%;
+        margin-top :5%;
+        width : 150px;
+        background-position-y: 50%;
+        background-position-x: 1%;
+        background-size: 35%;
+        color : black;
+        background-repeat: no-repeat;
+        background-color: white;
+        opacity:0.8;
+        border : 3px #FEA347 solid;
+        margin-bottom: 1%;
+        border-radius: 10px;
+        
+    }
+
+    .pict{
+        background-image: url("image/picjap5.jpg");
+        
+
+    }
+    .pict1{
+        background-image: url("image/picjap2.png");
+    }
+    .pict2{
+        background-image: url("image/picjap3.gif");
+    }
+    .pict3{
+        background-image: url("image/picjap4.gif");
+    }
+    .pict4{
+        background-image: url("image/picjap4.gif");
+    }
+    
+    #navbar{
+        display : none;
+    }
+    .menuD{
+        height : 500px;       
+        width : 160px;
+        border: 1px black solid;
+        margin-left :4%;
+        background-color: #677179;
+        z-index:10;
+        position: fixed;
+        margin-top:11%;
+        
+    }
+    .titreFormulaire1{
+        font-size: 25px;
+        margin-top :45%;
+        color : red;
+        text-align: center;
+        text-decoration: none;
+    }
+    .titreFormulaire2{
+        font-size: 25px;
+        margin-top :57%;
+        color : red;
+        text-align: center;
+    }
+    .titreFormulaire3{
+        font-size: 25px;
+        margin-top :70%;
+        color : red;
+        text-align: center;
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+
+
+
+#blockG{
+   
+}
+@media(max-width:715px){
+    .block2{
+        border : 3px black solid;
+        height : 125px;
+        margin-right: -2%;
+        margin-top :5%;
+        width : 150px;
+        margin-left:12%;
+        background-position-y: 50%;
+        background-position-x: 1%;
+        background-size: 100% 100%;
+        color : black;
+        background-repeat: no-repeat;
+        background-color: white;
+        border : 3px #FEA347 solid;
+        border-radius: 10px;
+        opacity:0.7;
+    }
+    .text1{
+        margin-top:33%;
+        text-align: center;
+        font-size : 100%;
+        color :  white;;
+        font-style: bold;
+    }
+    .pict{
+        background-image: url("image/picjap5A.jpg");
+
+    }
+    .pict1{
+        background-image: url("image/picjap2A.png");
+    }
+    .pict2{
+        background-image: url("image/picjap3A.gif");
+    }
+    .pict3{
+        background-image: url("image/picjap4A.gif");
+    }
+    #navbar{
+        
+        position : fixe;
+    }
+    .menuD{
+        display : none;
+    }
+    
 }
