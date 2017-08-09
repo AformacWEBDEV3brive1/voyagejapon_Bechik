@@ -7,13 +7,27 @@
 .gris{
 	background-color:#677179;
 }
+body{
+	background:none;
+}
+.espaceG{
+	height:4rem;
+}
 .espace{
 	height:1rem;
 }
 
+
+
+
 #navbar .fix{
+	z-index:10;
 	position:fixed;
+	width:100%;
 }
+
+
+
 #nom_ENT .vertmot{
 	color:#85c17e;
 }
@@ -24,6 +38,9 @@
 	font-size:500%;
 	text-align:center;
 }
+
+
+
 
 #carrousel img{
 	height:500px;
@@ -42,6 +59,8 @@
 	display:none;
 }
 
+
+
 #description .color{
 	color:white;
 }
@@ -54,6 +73,8 @@
 	margin-right:10%;
 	
 }
+
+
 
 
 #destination h2{
@@ -72,6 +93,9 @@
 	margin-top:10px;
 }
 
+
+
+
 #contacter .text{
 	text-align:center;
 	color:white;
@@ -80,7 +104,14 @@
 	list-style:none;
 }
 
+
+
 @media (min-width:720px){
+	body{
+		
+		background-size:cover;
+		background-image:url("image/japan-hero.jpg");
+	}
 	#destination img{
 		height:100%;
 		width:100%;
